@@ -1,0 +1,10 @@
+Rocket ship launches from  earth to go stop alien invasion.
+
+Alien spaceship is X light seconds away.
+As you get further input lag increases.
+When you get to the end you can decide to diplomatically solve the issue or blow them up with your space nuke.
+Maybe: have a message system that tells you if they are hostile or peaceful but message takes time to deliver.
+
+Asteroids and debris will be flying at you but will move slowly. will speed up as you get further.
+Ship has 3 health. Possibly when hit knocks off course a little.
+Possible cow easter egg. 

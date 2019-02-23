@@ -1,0 +1,171 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1396401336716558}
+  m_IsPrefabParent: 1
+--- !u!1 &1396401336716558
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4042833022786790}
+  - component: {fileID: 212792921967099248}
+  - component: {fileID: 50187238757841372}
+  - component: {fileID: 60420514588529492}
+  m_Layer: 0
+  m_Name: Rocketship2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4042833022786790
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1396401336716558}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -4.2255726, y: 0.98094475, z: 0}
+  m_LocalScale: {x: 3, y: 3, z: 3}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &50187238757841372
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1396401336716558}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!60 &60420514588529492
+PolygonCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1396401336716558}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.5, y: 1.63}
+    newSize: {x: 0.34, y: 0.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.17024899, y: 0.09187424}
+      - {x: 0.19614944, y: 0.37366658}
+      - {x: 0.20058426, y: 0.4816252}
+      - {x: 0.18884484, y: 0.5151828}
+      - {x: 0.17537045, y: 0.63902783}
+      - {x: 0.16617712, y: 0.6598504}
+      - {x: 0.14840516, y: 0.6998943}
+      - {x: 0.0843726, y: 0.80093163}
+      - {x: 0.010762215, y: 0.8278486}
+      - {x: -0.058745228, y: 0.80655897}
+      - {x: -0.11311786, y: 0.73093164}
+      - {x: -0.15749042, y: 0.6453042}
+      - {x: -0.1716617, y: 0.5554081}
+      - {x: -0.18342209, y: 0.4565589}
+      - {x: -0.18467681, y: 0.33499998}
+      - {x: -0.14904945, y: 0.08781366}
+      - {x: -0.23081541, y: -0.05981221}
+      - {x: -0.23642302, y: -0.065}
+      - {x: -0.23780696, y: -0.09362614}
+      - {x: -0.23239788, y: -0.10422903}
+      - {x: -0.24326245, y: -0.10400508}
+      - {x: -0.23189735, y: -0.16142306}
+      - {x: -0.1960896, y: -0.24137503}
+      - {x: -0.15963459, y: -0.3710577}
+      - {x: -0.15379493, y: -0.51273715}
+      - {x: -0.096279144, y: -0.522778}
+      - {x: -0.059432983, y: -0.4898859}
+      - {x: -0.031903427, y: -0.4852297}
+      - {x: -0.0009771984, y: -0.5236186}
+      - {x: 0.029197376, y: -0.5238678}
+      - {x: 0.045875072, y: -0.49111924}
+      - {x: 0.07730007, y: -0.49076694}
+      - {x: 0.09449506, y: -0.50992787}
+      - {x: 0.11319097, y: -0.51639974}
+      - {x: 0.15311591, y: -0.51260483}
+      - {x: 0.21687429, y: -0.21524903}
+      - {x: 0.22598593, y: -0.1519429}
+      - {x: 0.25246716, y: -0.123701535}
+      - {x: 0.22681198, y: -0.021687448}
+--- !u!212 &212792921967099248
+SpriteRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1396401336716558}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 8dec381fcb7fd2346969fa2239d125ce, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.34, y: 0.32}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
