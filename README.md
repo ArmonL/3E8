@@ -3,5 +3,6 @@
 This game was made during the 2018 Global Game Jam 
 
 Developers: Armon Liaghat & Joshua Prince
+
 Art: Corey Inouye
 
